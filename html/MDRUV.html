@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>MÓDULO DE MEDICIÓN DE RADIACIÓN SOLAR</title>
+        <link rel="stylesheet" href="/Tesis2/style.css">
+    </head>
+    <body>
+            <header>
+                <a href="https://www.epn.edu.ec/"><img src="/Tesis2/imagenes/logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="/Tesis2/index.html">INTRODUCCIÓN</a>
+                    </li>    
+                    <li><a href="/Tesis2/html/MDRUV.html">MDRUV</a>
+                        <ul>
+                            <li><a href="#Ml8511">Ml8511 </a></li>
+                            <li><a href="#ESP32">ESP32</a></li>
+                            <li><a href="#Internet">Internet </a></li>
+                            <li><a href="#ThingSpeak">ThingSpeak </a></li>
+                            <li><a href="#APP">APP</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="/Tesis2/html/Calibracion.html">Calibración</a></a></li>
+                    <li><a href="/Tesis2/html/live.html">Live</a></li>
+                    <li><a href="/Tesis2/html/enlaces.html">Enlaces</a></li>
+                </ul>
+            </header>
+            <section class="banner">
+                <video src="/Tesis2/videos/Quito5.mp4" muted autoplay loop type="mp4"></video>
+                <div class="textBox">
+                    <h2>MÓDULO DE MEDICIÓN DE RADIACIÓN SOLAR </h2>
+                    <p style="text-align: justify;">Objetivo: <br>Construir un medidor de radiación solar digital para uso en espacios abiertos
+                mediante la utilización del sensor de radiación ultravioleta ML8511 y el microcontrolador ESP32</p>
+
+                    </div>
+                    <div class="w52">
+                        <img src="/Tesis/imagenes/MDRUV1.png" class="pepsi1"></div>
+            </section>
+            <section class="about" id="Ml8511">
+              <div class="heading">
+                  <h2>SENSOR DE RADIACIÓN UV "ML8511"</h2>
+              </div>
+              <div class="content">
+                  <div class="contentBx">
+                      <h3></h3><br>
+                      <p>El sensor ML8511 tiene una capacidad de respuesta 
+                        acorde a la radiación UV-B y UV-A que van desde los 280 a 315 nanómetros y 315 a 400 
+                        nanómetros en la longitud de onda respectivamente.
+                    <br></p>
+                  </div>
+                  <div class="w5">
+                    <img src="/Tesis/imagenes/MDRU1.png" class="pepsi2">
+                </div>
+                <div class="w51"><img src="/Tesis/imagenes/MDRUV2_1.png" class="pepsi2"></div>
+              </div>
+                
+          </section>
+          <section class="about" id="ESP32">
+            <div class="heading">
+                <h2>ESP32</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx">
+                    <h3></h3><br>
+                    <p>ESP32 es un SoC, es decir, integra todos o la mayor parte de sus 
+                        componentes en un solo chip o circuito integrado, fue diseñada por 
+                        Espressif. Integra en un procesador Tensilica Xtensa de doble núcleo de 
+                        32bits a 160Mhz (con posibilidad de hasta 240Mhz) con la capacidad de 
+                        conectarse a Wifi y Bluetooth.
+                  <br></p>
+                </div>
+                <div class="w5">
+                  <img src="/Tesis/imagenes/MDRUV3_1.png" class="pepsi2">
+              </div>
+              <div>
+                  <img src="/Tesis/imagenes/pepsi.png" class="pepsi3">
+                </div>
+              </section>
+              <section class="about" id="Internet">
+                <div class="heading">
+                    <h2>Conectividad a Internet</h2>
+                </div>
+                <div class="content">
+                    <div class="contentBx">
+                        <h3></h3><br>
+                        <p>ES32 puede conectarse a internet para transmitir el 
+                            índice de radiación UV hacia la nube, esto es debido a su procesador el cual cuenta 
+                            con dos núcleos, uno es utilizado para la comunicación  Wifi, es decir, se puede
+                             conectar a internet, mientras que el otro núcleo realiza el resto de procesos.
+                      <br></p>
+                    </div>
+                    <div class="w5">
+                        <img src="/Tesis/imagenes/MDRUV4_1.png" class="pepsi2">
+                    </div>
+                    <div>
+                        <img src="/Tesis/imagenes/pepsi.png" class="pepsi3">
+                      </div>
+                </div>
+            </section>
+            <section class="about" id="ThingSpeak">
+                <div class="heading">
+                    <h2><a href="https://thingspeak.com/">ThingSpeak.com</h2></a>
+                </div>
+                <div class="content">
+                    <div class="contentBx">
+                        <h3></h3><br>
+                        <p>ThingSpeak es un servicio de plataforma de análisis de IoT que le permite agregar, 
+                            visualizar y analizar flujos de datos en vivo en la nube. Puede enviar datos a 
+                            ThingSpeak desde sus dispositivos, crear una visualización instantánea de datos en vivo y enviar alertas.
+                      <br></p>
+                    </div>
+                    <div class="w5">
+                        <img src="/Tesis/imagenes/MDRUv5.png" class="pepsi2">
+                    </div>
+                    <div><img src="/Tesis/imagenes/MDRUV5_1.png" class="pepsi4"></div>
+                </div>    
+            </section>
+            <section class="banner2" id="APP">
+                <div class="textBox2">
+                    <div class="heading">
+                        <h2>Aplicación móvil</h2>
+                    </div>
+                    <p style="text-align: justify;">La aplicacion móvil nos permite visualizar las gráficas en tiempo real 
+                    el nivel de radiación ultra violeta, índice de radiación y las recomendaciones que se deberían seguir 
+                para proteger nuestra piel. </p> 
+                <a href="html/1.html">Descargar App</a> </div>
+                    <div class="videoBx2">
+                        <video src="/Tesis/videos/aplicacion.mp4" muted autoplay loop type="mp4"></video>
+                    </div>
+            </section>
+          <script type="text/javascript">
+          window.addEventListener('scroll',function(){
+          var header = document.querySelector('header');
+          header.classList.toggle('sticky', window.scrollY > 0); 
+          });
+          </script>
+
+
+</div>
+    </body>
+</html>

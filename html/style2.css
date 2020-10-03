@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    background: #0077b6;
+}
+section
+{
+    padding: 100px;
+    min-height: 100vh;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+    background: #111;
+}
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+header .logo
+{
+    position: relative;
+    max-width: 100px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    padding: 0;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+
+}
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header.sticky ul li a
+{
+    color: #111; 
+}
+header ul li ul
+{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: block;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+header.sticky ul li ul
+{
+    background: #fff; 
+}
+header ul li:hover ul
+{
+    opacity: 1;
+    visibility: visible;
+}
+header ul li a:hover
+{
+    color: #03a9f4;
+}
+.banner
+{
+    background: #111;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.banner video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    pointer-events: none;
+}
+.banner .textBox
+{
+    position: relative;
+    z-index: 2;
+}
+.banner .textBox h2
+{
+    color: #90e0ef;
+    font-size: 2em;
+}
+.banner .textBox p
+{
+    text-align: justify;
+    color: #00b4d8;
+    font-size: 1.1em;
+    margin: 5px 0 300px;
+}
+.banner .textBox a
+{
+    position: relative;
+    background: #03045e;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    padding: 0px 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.banner .videoBx
+{
+    position: relative;
+    background: #fff;
+    margin-left: 40px;
+    width: 100%;
+    height: 400px;
+}
+.banner .videoBx video
+{
+    opacity: 1;
+}
+.heading 
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+
+}
+.content
+{
+     display: flex;
+     justify-content: space-between;
+}
+.contentBx
+{
+    padding-right: 30px;
+}
+.contentBx p
+{
+    text-align: justify;
+    color: #00b4d8;
+    font-size: 1.3em;
+    margin: 5px 0 25px;
+}
+.contentBx h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.w50
+{
+    position: relative;
+    background: #fff;
+    margin-left: 0px;
+    width: 100%;
+    height: 400px;
+
+}
+.w50 .pepsi2
+{
+    width: 200px;
+    height: 400px;
+    opacity: 1;
+}
+.about
+{
+    background: #0077b6;
+}
+.about .textBox a
+{
+    text-align: center;
+    position: relative;
+    background: #00b4d8;
+    display: inline-block;
+    color: #03045e;
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 450px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.sci
+{
+    position: relative;
+    bottom: 100px;
+    letter-spacing: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.sci li
+{
+    list-style: none;
+}
+.sci a
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+.sci li a img
+{
+    transform: scale(0.5);
+    filter: invert(1)
+}

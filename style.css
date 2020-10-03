@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section
+{
+    padding: 100px;
+    min-height: 100vh;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+header .logo
+{
+    position: relative;
+    max-width: 100px;
+}
+header .logo2
+{
+    position: relative;
+    max-width: 0px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    padding: 0;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+
+}
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header.sticky ul li a
+{
+    color: #111; 
+}
+header ul li ul
+{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: block;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+header.sticky ul li ul
+{
+    background: #fff; 
+}
+header ul li:hover ul
+{
+    opacity: 1;
+    visibility: visible;
+}
+header ul li a:hover
+{
+    color: #03a9f4;
+}
+.banner
+{
+    background: #111;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+.banner:before
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    pointer-events: none;
+}
+.banner .textBox
+{
+    position: relative;
+    max-width: 500px;
+    z-index: 2;
+}
+.banner .textBox h2
+{
+    color: #fff;
+    font-size: 2em;
+}
+.banner .textBox p
+{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1em;
+    margin: 5px 0 25px;
+}
+.banner .textBox a
+{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.banner .videoBx
+{
+    position: relative;
+    background: #fff;
+    margin-left: 40px;
+    width: 100%;
+    height: 400px;
+}
+.banner .videoBx video
+{
+    opacity: 1;
+}
+.heading 
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+
+}
+.content
+{
+     display: flex;
+     justify-content: space-between;
+}
+.contentBx
+{
+    padding-right: 30px;
+}
+.contentBx p
+{
+    text-align: justify;
+    color: #111;
+    font-size: 1.3em;
+    margin: 5px 0 25px;
+}
+.contentBx h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.w50
+{
+    position: relative;
+    background: #fff;
+    margin-left: 0px;
+    width: 100%;
+    height: 400px;
+
+}
+.w50 .pepsi2
+{
+    width: 200px;
+    height: 400px;
+    opacity: 1;
+}
+.w5
+{
+    position: relative;
+    background: #fff;
+    margin-left: 0px;
+    width: 200px;
+    height: 400px;
+
+}
+.w5 .pepsi2
+{
+    width: 200px;
+    height: 400px;
+    opacity: 1;
+}
+
+.w51
+{
+    position: relative;
+    background: #fff;
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 500px;
+    height: 150px;
+
+}
+.w52
+{
+    position: relative;
+    background: #fff;
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+
+}
+.w52 .pepsi1
+{
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}
+.w58
+{
+    background: #fff;
+    position: relative;
+    height: 400px;
+
+}
+.w60
+{
+    position: relative;
+    background: #111;
+    margin-left: 100px;
+    width: 600px;
+    height: 400px;
+
+}
+.w60 .pepsi60
+{
+    width: 300px;
+    height: 400px;
+    opacity: 1;
+}
+.w60 .pepsi61
+{
+    position: absolute;
+    margin-left: 5px;
+    width: 300px;
+    height: 400px;
+    opacity: 1;
+}
+.w61
+{
+    position: relative;
+    background: #fff;
+    margin-left: 100px;
+    width: 600px;
+    height: 500px;
+
+}
+.w61 .pepsi61
+{
+    width: 600px;
+    height: 500px;
+    opacity: 1;
+}
+
+.pepsi3
+{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 200px;
+    height: 250px;
+    opacity: 1;
+}
+.pepsi4
+{
+    margin-top: 150px;
+    margin-left: 40px;
+    width: 200px;
+    height: 75px;
+    opacity: 1;
+}
+
+.content .inframe
+{
+    max-width: 100%;
+    width: 650px;
+    height: 400px;
+}
+.banner2
+{
+    background: #111;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+.banner2:before
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner2 video /* este */
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    pointer-events: none;
+}
+.banner2 .textBox2
+{
+    position: relative;
+    max-width: 500px;
+    z-index: 2;
+}
+.banner2 .textBox2 h2
+{
+    color: #fff;
+    font-size: 2em;
+}
+.banner2 .textBox2 p
+{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1em;
+    margin: 5px 0 25px;
+}
+.banner2 .textBox2 a
+{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.banner2 .videoBx2
+{
+    position: relative;
+    background: #fff;
+    margin-left: 300px;
+    width: 20%;
+    height: 500px;
+}
+.banner2 .videoBx2 video
+{
+    opacity: 1;
+}

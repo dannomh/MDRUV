@@ -387,8 +387,8 @@ header ul li a:hover
 {
     position: relative;
     background: #fff;
-    margin-left: 300px;
-    width: 20%;
+    margin-left: 20px;
+    width: 100%;
     height: 500px;
 }
 .banner2 .videoBx2 video

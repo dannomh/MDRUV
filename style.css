@@ -395,3 +395,28 @@ header ul li a:hover
 {
     opacity: 1;
 }
+
+
+.sci
+{
+    position: relative;
+    bottom: 100px;
+    letter-spacing: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.sci li
+{
+    list-style: none;
+}
+.sci a
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+.sci li a img
+{
+    transform: scale(0.5);
+
+}
